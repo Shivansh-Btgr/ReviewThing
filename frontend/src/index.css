@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #18191c;
+}
+
+#root {
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.login-container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 2rem 1.5rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.37rem;
+  font-weight: 600;
+  margin-bottom: 1.87rem;
+}
+
+.input-wrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input-field {
+  width: 100%;
+  outline: none;
+  font-size: 1.06rem;
+  border-radius: 0.31rem;
+  border: 1px solid #bfb3f2;
+  padding: 0.75rem 1.25rem;
+  transition: 0.2s ease;
+}
+.input-field:focus {
+  border-color: #5F41E4;
+}
+.input-field::placeholder {
+  color: #9284c8;
+}
+
+.login-button {
+  border: none;
+  outline: none;
+  background: #18191c;
+  color: #fff;
+  font-size: 1.08rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 0.31rem;
+  padding: 0.8rem 1.2rem;
+  transition: 0.3s ease;
+}
+.login-button:hover {
+  background: #232428;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.98rem;
+  margin-top: 0.2rem;
+}
+.success-message {
+  color: #27ae60;
+  font-size: 0.98rem;
+  margin-top: 0.2rem;
+}
+.empty-msg {
+  color: #aaa;
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+}
